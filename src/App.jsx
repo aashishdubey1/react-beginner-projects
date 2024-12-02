@@ -1,12 +1,11 @@
-
-import './App.css'
+import SearchIcon from './projects/SearchIcon'
 
 function App() {
   
 
   return (
     <div>
-
+      <SearchIcon />
     </div>
   )
 }
