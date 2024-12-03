@@ -1,37 +1,15 @@
     import React, { useEffect, useState } from 'react'
-    
+    import { testimonials } from '../content';
+
+
+
     const Testimonials = () => {
 
       const [currentIndex,setCurrentIndex] = useState(3)
       const [availableLeft,setAvailableLeft]= useState(true);
       const [availableRight,setAvailableRight]= useState(true);
 
-      const testimonials = [
-        {
-          quote: "This product has completely changed my life. Highly recommended!",
-          author: "John Doe",
-        },
-        {
-          quote: "Excellent service and great quality. I'll definitely use it again.",
-          author: "Jane Smith",
-        },
-        {
-          quote: "Affordable, reliable, and exceeded my expectations. Five stars!",
-          author: "Emily Johnson",
-        },
-        {
-          quote: "Quick delivery and amazing support. Truly a great experience.",
-          author: "Michael Brown",
-        },
-        {
-          quote: "I was skeptical at first, but now I can't imagine my life without it.",
-          author: "Sarah Davis",
-        },
-        {
-          quote: "Fantastic! Worth every penny. Will recommend to everyone I know.",
-          author: "David Wilson",
-        },
-      ];
+      
 
 
       function handleLeftClick(){
