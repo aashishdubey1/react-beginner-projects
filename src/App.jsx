@@ -1,6 +1,7 @@
-import AccordionList from './projects/AccordionList'
-import SearchIcon from './projects/SearchIcon'
-import Testimonials from './projects/Testimonials'
+// import AccordionList from './projects/AccordionList'
+// import SearchIcon from './projects/SearchIcon'
+// import Testimonials from './projects/Testimonials'
+import Meals from './projects/Meals'
 
 function App() {
   
@@ -9,7 +10,8 @@ function App() {
     <div>
       {/* <SearchIcon /> */}
       {/* <Testimonials /> */}
-      <AccordionList />
+      {/* <AccordionList /> */}
+      <Meals />
     </div>
   )
 }
