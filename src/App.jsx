@@ -2,6 +2,9 @@
 // import SearchIcon from './projects/SearchIcon'
 // import Testimonials from './projects/Testimonials'
 import Meals from './projects/Meals'
+import NavBar from './projects/ProductWithFilter/Components/NavBar'
+import Products from './projects/ProductWithFilter/Components/Products'
+import Recommended from './projects/ProductWithFilter/Components/Recommended'
 
 function App() {
   
@@ -11,7 +14,10 @@ function App() {
       {/* <SearchIcon /> */}
       {/* <Testimonials /> */}
       {/* <AccordionList /> */}
-      <Meals />
+      {/* <Meals /> */}
+      <NavBar />  
+      <Recommended />
+      <Products />
     </div>
   )
 }
